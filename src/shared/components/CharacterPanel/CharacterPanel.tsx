@@ -1,9 +1,9 @@
-import "./CharacterPanel.css";
-import { CharacterCardComponent } from "../CharacterCard/CharacterCard";
+import './CharacterPanel.css';
+import { CharacterCardComponent } from '../CharacterCard/CharacterCard';
 
 export const CharacterPanel = () => {
   return (
-    <div className="characterPanel">
+    <div className='characterPanel'>
       <CharacterCardComponent />
       <CharacterCardComponent />
       <CharacterCardComponent />

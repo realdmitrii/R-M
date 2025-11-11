@@ -1,17 +1,17 @@
-import { Header } from "../../shared/components/Header/Header";
-import { Footer } from "../../shared/components/Footer/Footer";
-import { LogoRandMComponent } from "../../shared/components/LogoRandM/LogoRandM";
-import { FilterPanel } from "../../shared/components/FilterPanel/FilterPanel";
-import { CharacterPanel } from "../../shared/components/CharacterPanel/CharacterPanel";
+import { Header } from '@/shared';
+import { Footer } from '@/shared';
+import { LogoComponent } from '@/shared';
+import { FilterPanel } from '@/shared';
+import { CharacterPanel } from '@/shared';
 
-import "./MainPage.css";
+import './MainPage.css';
 
 export const MainPage = () => {
   return (
-    <div className="mainpage-wrapper">
+    <div className='main-page-wrapper'>
       <Header />
-      <div className="mainpage">
-        <LogoRandMComponent />
+      <div className='main-page'>
+        <LogoComponent />
         <FilterPanel />
         <CharacterPanel />
       </div>

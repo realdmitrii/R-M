@@ -1,7 +1,7 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
-import svgr from "vite-plugin-svgr";
-import { fileURLToPath, URL } from "node:url";
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import svgr from 'vite-plugin-svgr';
+import { fileURLToPath, URL } from 'node:url';
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -10,17 +10,17 @@ export default defineConfig({
     svgr({
       // Опция для использования именованного импорта ReactComponent
       svgrOptions: {
-        exportType: "named",
+        exportType: 'named',
         ref: true,
         svgo: false,
         titleProp: true,
       },
-      include: "**/*.svg",
+      include: '**/*.svg',
     }),
   ],
   resolve: {
     alias: {
-      "@": fileURLToPath(new URL("./src", import.meta.url)),
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
 });

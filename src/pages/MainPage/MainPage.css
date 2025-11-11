@@ -1,10 +1,10 @@
-.mainpage-wrapper {
+.main-page-wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-.mainpage {
+.main-page {
   width: 1044px;
   margin: 0 auto;
   display: flex;

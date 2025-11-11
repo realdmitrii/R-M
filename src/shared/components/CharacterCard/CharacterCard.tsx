@@ -1,8 +1,11 @@
-import "./CharacterCard.css";
-import { CharacterCard } from "@/assets";
+import './CharacterCard.css';
 
 export const CharacterCardComponent = () => {
   return (
-    <img src={CharacterCard} alt="charactercard" className="characterCard" />
+    <img
+      src={''}
+      alt='charactercard'
+      className='characterCard'
+    />
   );
 };
