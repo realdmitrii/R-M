@@ -1,4 +1,4 @@
-import { ReactComponent as LogoBlack } from './logo-black.svg';
-import Logo from './Logo.png';
+import { ReactComponent as LogoHeaderBlack } from './logo-black.svg';
+import LogoMainPage from './LogoMainPage.png';
 
-export { LogoBlack, Logo };
+export { LogoHeaderBlack, LogoMainPage };

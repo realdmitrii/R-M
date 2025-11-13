@@ -1,13 +1,12 @@
-import { FilterItem } from '../FilterItem/FilterItem';
 import './FilterPanel.css';
 
 export const FilterPanel = () => {
   return (
     <div className='filterPanel'>
-      <FilterItem value='Filter by name...' />
-      <FilterItem value='Species' />
-      <FilterItem value='Gender' />
-      <FilterItem value='Status' />
+      <div className='filterField'>Filter by name...</div>
+      <div className='filterField'>Species</div>
+      <div className='filterField'>Gender</div>
+      <div className='filterField'>Status</div>
     </div>
   );
 };

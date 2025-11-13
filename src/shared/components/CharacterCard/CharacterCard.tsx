@@ -1,11 +1,5 @@
 import './CharacterCard.css';
 
 export const CharacterCardComponent = () => {
-  return (
-    <img
-      src={''}
-      alt='charactercard'
-      className='characterCard'
-    />
-  );
+  return <div className='characterCard'> Карточка персонажа</div>;
 };

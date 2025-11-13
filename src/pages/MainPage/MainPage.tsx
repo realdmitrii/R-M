@@ -1,8 +1,4 @@
-import { Header } from '@/shared';
-import { Footer } from '@/shared';
-import { LogoComponent } from '@/shared';
-import { FilterPanel } from '@/shared';
-import { CharacterPanel } from '@/shared';
+import { Header, Footer, LogoComponent, FilterPanel, CharacterCards } from '@/shared';
 
 import './MainPage.css';
 
@@ -13,7 +9,7 @@ export const MainPage = () => {
       <div className='main-page'>
         <LogoComponent />
         <FilterPanel />
-        <CharacterPanel />
+        <CharacterCards />
       </div>
       <Footer />
     </div>
