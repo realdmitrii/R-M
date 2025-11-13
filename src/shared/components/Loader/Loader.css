@@ -1,0 +1,25 @@
+.loader {
+  opacity: 1;
+  top: 63px;
+  left: 41px;
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loader.big {
+  width: 475px;
+  height: 475px;
+}
+
+.loader.small {
+  width: 103px;
+  height: 103px;
+}
