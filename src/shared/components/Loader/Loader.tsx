@@ -2,18 +2,18 @@ import { LoadingPortal } from '@/assets';
 import './Loader.css';
 
 type LoaderProps = {
-  value: string;
+  text: string;
 };
 
-export const Loader = ({ value }: LoaderProps) => {
+export const Loader = ({ text }: LoaderProps) => {
   return (
-    <div>
+    <div className='loader-wrapper'>
       <img
         className='loader small'
         src={LoadingPortal}
         alt='Loading portal'
       />
-      {value}
+      {text}
     </div>
   );
 };
