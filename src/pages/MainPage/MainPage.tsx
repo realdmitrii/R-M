@@ -1,4 +1,4 @@
-import { Header, Footer, LogoComponent, FilterPanel, CharacterCards, Loader } from '@/shared';
+import { CharacterCards, FilterPanel, Footer, Header, Loader,LogoComponent } from '@/shared';
 
 import './MainPage.css';
 

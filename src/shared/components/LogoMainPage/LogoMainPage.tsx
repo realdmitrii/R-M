@@ -1,4 +1,5 @@
 import { LogoMainPage } from '@/assets';
+
 import './LogoMainPage.css';
 
 export const LogoComponent = () => {

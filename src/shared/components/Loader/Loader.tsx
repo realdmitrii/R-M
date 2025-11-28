@@ -1,4 +1,5 @@
 import { LoadingPortal } from '@/assets';
+
 import './Loader.css';
 
 type LoaderProps = {

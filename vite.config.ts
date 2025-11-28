@@ -1,7 +1,10 @@
-import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { defineConfig } from 'vite';
 import svgr from 'vite-plugin-svgr';
-import { fileURLToPath, URL } from 'node:url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -20,7 +23,10 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url)),
+      '@': path.resolve(__dirname, './src'),
+      '@/assets': path.resolve(__dirname, './src/assets'),
+      '@/pages': path.resolve(__dirname, './src/pages'),
+      '@/shared': path.resolve(__dirname, './src/shared'),
     },
   },
 });
