@@ -1,0 +1,66 @@
+.wrapper {
+  display: flex;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+
+  .optionsContainer {
+    border-radius: 6px;
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    right: 0;
+    border: 1px solid rgba(57, 57, 57, 1);
+    background-color: #fff;
+    z-index: 1000;
+  }
+
+  .small-selector-option {
+    display: flex;
+    font-size: 14px;
+    justify-content: start;
+    align-items: center;
+    margin-left: 5px;
+  }
+
+  .selector-option {
+    display: flex;
+    font-size: 17px;
+    height: 40px;
+    padding-left: 13px;
+    align-items: start;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.bigSelector {
+  margin-left: 14px;
+  font-size: 16px;
+  width: 187px;
+}
+
+.smallSelector {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.arrow {
+  width: 24px;
+  height: 23px;
+}
+
+.smallArrow {
+  width: 10px;
+  height: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: 6px;
+}

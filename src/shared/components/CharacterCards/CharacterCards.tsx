@@ -1,4 +1,5 @@
 import { CharacterCardComponent } from '@/shared';
+
 import './CharacterCards.css';
 
 export const CharacterCards = () => {
