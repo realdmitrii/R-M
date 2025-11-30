@@ -1,23 +1,18 @@
-.red {
+.circle {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+}
+
+.circle.red {
   background-color: #df0000;
-  border-radius: 50%;
-  width: 10px;
-  height: 10px;
-  margin-left: 5px;
 }
 
-.green {
+.circle.green {
   background-color: #12b800;
-  border-radius: 50%;
-  width: 10px;
-  height: 10px;
-  margin-left: 5px;
 }
 
-.orange {
+.circle.orange {
   background-color: #ff9900;
-  border-radius: 50%;
-  width: 10px;
-  height: 10px;
-  margin-left: 5px;
 }

@@ -5,5 +5,5 @@ export interface StatusProps {
 }
 export const CharacterStatus = (props: StatusProps) => {
   const { status } = props;
-  return status ? <div className={`${status}`} /> : null;
+  return status ? <div className={`circle ${status}`} /> : null;
 };

@@ -1,4 +1,4 @@
-import { useEffect,useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 import { ArrowDropDown, ArrowDropUp } from '@/assets';
 import { CharacterStatus } from '@/shared/components';
@@ -23,9 +23,11 @@ export const Selector = (props: ISelectorProps) => {
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (containerRef.current && !containerRef.current.contains(event.target as Node)) {
-        setIsOpen(false);
-      }
+      return (
+        containerRef.current &&
+        !containerRef.current.contains(event.target as Node) &&
+        setIsOpen(false)
+      );
     };
 
     if (isOpen) {

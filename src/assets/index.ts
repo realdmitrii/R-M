@@ -4,4 +4,4 @@ import LoadingPortal from './LoadingPortal.png';
 import { ReactComponent as LogoHeaderBlack } from './logo-black.svg';
 import LogoMainPage from './LogoMainPage.png';
 
-export { ArrowDropDown, ArrowDropUp,LoadingPortal, LogoHeaderBlack, LogoMainPage };
+export { ArrowDropDown, ArrowDropUp, LoadingPortal, LogoHeaderBlack, LogoMainPage };
