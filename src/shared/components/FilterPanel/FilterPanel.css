@@ -5,11 +5,12 @@
 }
 
 .filterField {
+  display: flex;
+  align-items: center;
   width: 238px;
-  height: 56px;
+  height: 55px;
   border-radius: 8px;
   border: 1px solid rgba(0, 0, 0, 0.5);
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;

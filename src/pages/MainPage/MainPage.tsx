@@ -1,4 +1,4 @@
-import { Header, Footer, LogoComponent, FilterPanel, CharacterCards, Loader } from '@/shared';
+import { CharacterCards, FilterPanel, Footer, Header, Loader,LogoComponent } from '@/shared';
 
 import './MainPage.css';
 
@@ -10,7 +10,7 @@ export const MainPage = () => {
         <LogoComponent />
         <FilterPanel />
         <CharacterCards />
-        <Loader value='Loading characters...' /> {/*добавил для удобства просмотра при деплое! */}
+        <Loader text='Loading characters...' /> {/*добавил для удобства просмотра при деплое! */}
       </div>
       <Footer />
     </div>
